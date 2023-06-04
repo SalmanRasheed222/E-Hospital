@@ -1,0 +1,119 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+
+}
+
+@*<link href="c:\users\salman rasheed\source\repos\e-hospital\e-hospital\views\shared\_layout.cshtml.css" rel="stylesheet" />
+<a href="c:\users\salman rasheed\source\repos\e-hospital\e-hospital\views\shared\_layout.cshtml">c:\users\salman rasheed\source\repos\e-hospital\e-hospital\views\shared\_layout.cshtml</a>*@
+
+
+
+
+
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<link href="~/css/site.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+@*<table width=92% border="1" align="center" id="tblupdate">
+    <tr>
+
+        <td height="54" colspan="3">Doctor</td>
+    </tr>
+    <tr>
+        <td width="22%">&nbsp;</td>
+        <td width="15%">&nbsp;</td>
+        <td width="63%">&nbsp;</td>
+    </tr>
+
+    <tr>
+        <td>&nbsp;</td>
+        <td> <strong>Update Doctor Id</strong></td>
+        <td> <input type="text" readonly id="txtstudentpdateid" name="txtstudentpdateid" /> </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td> <strong>Update Doctor Name</strong></td>
+        <td> <input type="text" id="txtstudentpdatename" name="txtstudentpdatename" /> </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td> <strong>Update Doctor  Domain</strong></td>
+        <td> <input type="text" id="txtstudentpdateclass" name="txtstudentpdateclass" /> </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><input name="btnSubmit" type="button" class="btn btn-warning" id="btnSubmitUpdate" value="Update Doctor" /> </td>
+        <td>&nbsp;</td>
+        <td><input name="btnSubmit" type="button" class="btn btn-danger" id="btncancel" value="Cancel" /> </td>
+    </tr>
+</table>
+*@
+
+
+
+
+<table width=92% border="0" align="center" id="tblinsert">
+    <tr>
+
+        <td height="54" colspan="3" align="center" class="text-lg-center text-info bg-black rounded-pill"><h1>Doctor</h1></td>
+    </tr>
+    <tr>
+        <td width="22%">&nbsp;</td>
+        <td width="15%">&nbsp;</td>
+        <td width="63%">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td> <strong>Doctor Id</strong></td>
+        <td> <input type="text" id="txtstudent" name="txtstudent" /> </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td> <strong>Doctor Name</strong></td>
+        <td> <input type="text" id="txtstudentclass" name="txtstudentclass" /> </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td> <strong>Doctor Domian</strong></td>
+        <td> <input type="text" id="txtstudentclass" name="txtstudentclass" /> </td>
+    </tr>
+
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><input name="btnSubmit" type="button" class="btn btn-info" id="btnSubmit" value="Submit" /> </td>
+    </tr>
+</table>
+<br />
+<br />
+
+
+<table width=92% border="1" class="table table-stripped">
+    <thead>
+        <tr>
+            <th width="10%"><strong>Doctor ID</strong></th>
+            <th width="20%"><strong>Doctor Name</strong></th>
+            <th width="20%"><strong>Doctor  Domain</strong></th>
+            <th width="10%"><strong>Action</strong></th>
+        </tr>
+    </thead>
+    <tbody id="tbldoctor">
+    </tbody>
+
+</table>
+
+
+
+<script>
+    $(document).ready(function{
+        $('#tblupdate').hide();
+    });
+
+
+</script>
